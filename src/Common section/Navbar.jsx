@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const links = <>
-  <NavLink to="/home"><p className="mr-5">Home</p></NavLink>
+  <NavLink to="/"><p className="mr-5">Home</p></NavLink>
   <NavLink to="/about"><p className="mr-5">About</p></NavLink>
   <NavLink to="/service"><p className="mr-5">Service</p></NavLink>
   <NavLink to="/blog"><p className="mr-5">Blog</p></NavLink>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <p className="mr-4">
             <IoSearch></IoSearch>
           </p>
-          <button className="appointment border rounded-md text-[#FF3811] p-1 text-[16px]">Appointment</button>
+          <button className="appointment border rounded-md text-[#FF3811] p-1 text-[16px] hover:bg-orange-200">Appointment</button>
         </div>
       </div>
     );
